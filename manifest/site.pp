@@ -1,0 +1,4 @@
+notify {
+   'Hello, wolrd !" :
+]
+
