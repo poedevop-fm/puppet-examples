@@ -1,4 +1,4 @@
 notify {
-   'Hello, world !" :
-]
+   'Hello, world !' :
+}
 
