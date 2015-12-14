@@ -4,4 +4,5 @@ tapez git checkout <fonctionnalite>
 
 pour avoir le code source disponible.
 
-Exemple:  git checkout hello_world 
+Exemple:  git checkout filebucket
+
