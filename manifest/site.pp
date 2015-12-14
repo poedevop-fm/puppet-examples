@@ -6,7 +6,7 @@ file {
 	owner => 'root',
 	group => 'root',
 	mode => '644',
-	source => 'puppet:///modules/haproxy/etc/haproxy/haproxy.cfg',
+	source => 'puppet:///modules/haproxy/haproxy.cfg',
 }
 service {
 	'haproxy': ensure => 'running',
