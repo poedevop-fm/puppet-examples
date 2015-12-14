@@ -22,7 +22,7 @@ class haproxy::config {
 }
 
 class haproxy::service {
-        service { "Ãhaproxy":
+        service { "haproxy":
                         name => $operatingsystem ? {
                            /(Red Hat|CentOS|Fedora)/ => "haproxy",
                            Ubuntu => "haproxy",
