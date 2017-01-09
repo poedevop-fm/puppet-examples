@@ -3,3 +3,8 @@ node 'agent1' {
 	   content => "Hello, world\n",
 	}
 } 
+node 'agent2' {
+        file { '/tmp/hello' :
+           content => "Hello, world\n",
+        }
+}
